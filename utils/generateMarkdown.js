@@ -42,9 +42,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   let licenseSection = `
-    ## License
-    ${renderLicenseBadge(license)}.
-    The license's link ${renderLicenseLink(license)}`;
+  ## License
+  ${renderLicenseBadge(license)}.
+  The license's link ${renderLicenseLink(license)}`;
 
   if (!license) {
     return "";
@@ -67,6 +67,7 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   - [Screenshots](#screenshots)
   - [Links](#links)
+  - [Screenshot](#screenshot)
   
   ## Description
   ${data.description}
@@ -80,7 +81,7 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
   ## Questions
-  This is the link to my [Github profile](https://github.com/${data.github}).
+  This is the link to my [Github profile](https://github.com/${data.github})
   Incase of any question[s] or suggestion[s] concerning this appication, please contact me through this email:(${
     data.email
   })
