@@ -46,9 +46,9 @@ Incase of any question[s] or suggestion[s] concerning this appication, please co
 ## Links
 
 - [Github repo](https://github.com/bongomin256/Professional-README-Generator)
-- [Deploy Application](https://drive.google.com/file/d/1TUGxJC1sLkc2CiPk26t__ot7r9Y60zyp/view)
+- [Link to a walk through video](https://youtu.be/GIMyenlteTI)
 
 ## Screenshots
 
-![screenshot](./images/screenshot1.png)
-![screenshot](./images/screenshot2.png)
+![screenshot](./Develop/images/screenshot1.png)
+![screenshot](./Develop/images/screenshot2.png)
